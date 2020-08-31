@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test-auth') {
             steps {
-                sh 'npm test:ci'
+                sh 'npm run test:ci'
             }
         }        
     }
